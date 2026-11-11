@@ -4,8 +4,7 @@ export interface Categoria {
   id: number;
   descricao: string;
   tipo: TipoCategoria;
-  ativo: boolean;
+  ativa: boolean;
 }
 
 export type CategoriaInput = Omit<Categoria, 'id'>;
-
